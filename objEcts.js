@@ -16,4 +16,7 @@ console.log(husband)
 </script>
 </body>
 </html>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1c5ee1f1fc40df5462b28764d26f9ff192aa0e61
