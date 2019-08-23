@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <script type= "text/javascript">
+ 
+var a,b,result;
+function setValues()
+{
+
+
+}
+
+function sum()
+{
+    setValues();
+    result= a+b;
+    alert ("The sum is equal to "+result);
+}
+a= Number (document.getElementById("a").value);
+b= Number (document.getElementById("b").value);
+function rest()
+{
+    setValues();
+    result= a+b;
+    alert ("The rest is equal to "+result);
+}
+a= Number (document.getElementById("a").value);
+b= Number (document.getElementById("b").value);
+function multiply()
+{
+    setValues();
+    result= a*b;
+    alert ("The opertaion is equal to "+result);
+}
+a= Number (document.getElementById("a").value);
+b= Number (document.getElementById("b").value);
+function divide()
+{
+    setValues();
+    result= a/b;
+    alert ("The operation is equal to "+result);
+}
+a= Number (document.getElementById("a").value);
+b= Number (document.getElementById("b").value);
+ 
+ </script>
+</head>
+<body>
+
+    <div>
+<input id="a" type=text/>
+<input id="b" type=text/>
+<input type="button"onclick="sum()"value="sum"/>
+<input type="button"onclick="rest()"value="rest"/>
+<input type="button"onclick="multi()"value="multiply"/>
+<input type="button"onclick="div()"value="divide"/>
+    </div>
+    
+</body>
+</html>
